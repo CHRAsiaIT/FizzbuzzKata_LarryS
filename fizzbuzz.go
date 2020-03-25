@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Please Enter an Integer Number")
+	fmt.Print("Please Enter an Integer Number: ")
 	var input int
 	fmt.Scanf("%d", &input)
 
@@ -11,5 +11,5 @@ func main() {
 }
 
 func fizzbuzz(i int) {
-
+	fmt.Print(i)
 } 
