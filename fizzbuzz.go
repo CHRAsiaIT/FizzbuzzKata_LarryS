@@ -14,7 +14,10 @@ func main() {
 }
 
 func fizzbuzz(i int) string {
-	if i % 3 == 0 {
+	if i % 15 == 0{
+		fmt.Print("FizzBuzz")
+		return "FizzBuzz"
+	} else if i % 3 == 0 {
 		fmt.Print("Fizz")
 		return "Fizz"
 	} else if i % 5 == 0 {
