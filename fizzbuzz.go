@@ -10,6 +10,7 @@ func main() {
 	fizzbuzz(input)
 }
 
-func fizzbuzz(i int) {
+func fizzbuzz(i int) string {
 	fmt.Print(i)
+	return "a"
 } 
