@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 	fmt.Print("Please Enter an Integer Number: ")
@@ -11,6 +14,12 @@ func main() {
 }
 
 func fizzbuzz(i int) string {
-	fmt.Print(i)
-	return "a"
+	if i % 3 == 0 {
+		fmt.Print("Fizz")
+		return "Fizz"
+	} else {
+		fmt.Print(i)
+		return strconv.Itoa(i)
+	}
+		
 } 
