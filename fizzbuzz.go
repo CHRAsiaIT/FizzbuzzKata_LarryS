@@ -17,6 +17,9 @@ func fizzbuzz(i int) string {
 	if i % 3 == 0 {
 		fmt.Print("Fizz")
 		return "Fizz"
+	} else if i % 5 == 0 {
+		fmt.Print("Buzz")
+		return "Buzz"
 	} else {
 		fmt.Print(i)
 		return strconv.Itoa(i)
