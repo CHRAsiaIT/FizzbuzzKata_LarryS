@@ -77,3 +77,29 @@ func TestFizzbuzz_FizzBuzz45( t *testing.T) {
 	}
 }
 //fizzbuzz tests end
+
+//other numbers fizzbuzz tests
+func TestFizzbuzz_FizzBuzz2( t *testing.T) {
+	//Arrange
+	expected := "2"
+	//Act
+	result := fizzbuzz(2)
+	//result
+	if result != expected {
+		t.Errorf("expected %q but got %q", expected, result)
+		
+	}
+}
+
+func TestFizzbuzz_FizzBuzz7( t *testing.T) {
+	//Arrange
+	expected := "7"
+	//Act
+	result := fizzbuzz(7)
+	//result
+	if result != expected {
+		t.Errorf("expected %q but got %q", expected, result)
+		
+	}
+}
+//other numbers fizzbuzz tests end
